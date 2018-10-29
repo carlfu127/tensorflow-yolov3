@@ -158,7 +158,7 @@ class YOLO(object):
 
 def detect_img(yolo):
 
-    img = '/mnt/sde/clf8113/keras-yolo3-master/dataset/train/20180814/image/3__20180814211713017_56.jpg'#image path
+    img = ''#image path
     save_dir, name = os.path.split(img)
     print(name)
     try:
